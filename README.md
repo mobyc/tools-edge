@@ -40,3 +40,5 @@
 - 首次使用請先 `npm install`，否則 `gulp` 相關指令無法運行。
 - 構建前會自動清理 `dist/`，如需保留歷史包，可提前備份。
 - `manifest.json` 僅申請了 `windows` 權限，用於新窗口打開全文頁。
+
+<img width="306" height="264" alt="image" src="https://github.com/user-attachments/assets/97ed10cc-1a4b-4ebc-9a38-38ad1b09665b" />
