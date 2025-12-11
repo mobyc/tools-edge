@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL 解码</title>
+  <link rel="stylesheet" href="url-decode.css">
+</head>
+<body>
+  <div class="topbar">
+    <button id="backBtn" class="icon-btn" aria-label="返回首页">←</button>
+    <div class="topbar-title">URL解码</div>
+    <div class="topbar-placeholder"></div>
+  </div>
+
+  <div class="container">
+    <div class="toolbar">
+      <button id="decodeBtn" class="btn">解码</button>
+    </div>
+    <textarea id="urlInput" class="textarea" placeholder="粘贴或输入 URL 地址"></textarea>
+    <div class="divider"></div>
+    <div id="result" class="result"></div>
+    <div id="errorMsg" class="error-msg hidden"></div>
+  </div>
+
+  <script type="module" src="url-decode.js"></script>
+</body>
+</html>
+
+
+

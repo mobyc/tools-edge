@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouIKen Json Edge插件",
+  "version": "1.0.0",
+  "description": "TS + Gulp 开发的 Edge 插件",
+  "icons": {
+    "16": "icons/tools16.png",
+    "48": "icons/tools48.png",
+    "128": "icons/tools128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/tools48.png"
+  },
+  "permissions": [
+    "windows"
+  ]
+}

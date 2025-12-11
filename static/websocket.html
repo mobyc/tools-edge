@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSocket 调试</title>
+  <link rel="stylesheet" href="websocket.css">
+</head>
+<body>
+  <div class="topbar">
+    <button id="backBtn" class="icon-btn" aria-label="返回首页">←</button>
+    <div class="topbar-title">WebSocket 调试</div>
+    <div class="topbar-placeholder"></div>
+  </div>
+
+  <div class="container">
+    <div class="panel">
+      <div class="field">
+        <label for="wsInput" class="label">服务器地址</label>
+        <input id="wsInput" type="text" class="input" placeholder="例如：wss://echo.websocket.events/" autocomplete="off">
+      </div>
+
+      <div class="actions">
+        <div class="status">
+          <span class="status-dot" id="statusBadge" data-state="idle">未连接</span>
+        </div>
+        <div class="btn-group">
+          <button id="connectBtn" class="btn primary">连接</button>
+          <button id="disconnectBtn" class="btn ghost" disabled>断开</button>
+          <button id="clearLogBtn" class="btn ghost">清空消息</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel messages">
+      <div class="panel-header">
+        <div class="panel-title">实时消息</div>
+        <div class="panel-subtitle">展示服务端推送内容，仅做展示不做发送</div>
+      </div>
+      <div id="messageList" class="message-list"></div>
+    </div>
+  </div>
+
+  <script type="module" src="websocket.js"></script>
+</body>
+</html>
+

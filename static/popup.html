@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouIKen工具集</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1 class="title">YouIKen工具集</h1>
+    <p class="subtitle">常用开发工具一站式入口</p>
+  </header>
+
+  <ul class="tool-list inline" id="toolList">
+    <li class="tool-item" data-action="json-format">
+      <div class="tool-text">
+        <div class="tool-title">JSON格式化</div>
+        <div class="tool-desc">快速美化 / 缩进 JSON 文本</div>
+      </div>
+      <span class="tool-arrow">→</span>
+    </li>
+    <li class="tool-item" data-action="websocket">
+      <div class="tool-text">
+        <div class="tool-title">WebSocket 调试</div>
+        <div class="tool-desc">输入地址并实时查看推送</div>
+      </div>
+      <span class="tool-arrow">→</span>
+    </li>
+    <li class="tool-item" data-action="url-decode">
+      <div class="tool-text">
+        <div class="tool-title">URL解码</div>
+        <div class="tool-desc">将 URL 编码内容恢复为原文</div>
+      </div>
+      <span class="tool-arrow">→</span>
+    </li>
+  </ul>
+</div>
+<script type="module" src="popup.js"></script>
+</body>
+</html>
