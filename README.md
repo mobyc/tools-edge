@@ -1,4 +1,4 @@
-## Edge JSON 工具插件
+## Edge 工具插件
 
 面向 Edge/Chrome 浏览器的 Manifest V3 插件，提供 JSON 格式化、全文查看、WebSocket 调试、URL 解码等常用工具。代码基于 TypeScript + Gulp 构建。
 
