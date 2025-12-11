@@ -1,0 +1,16 @@
+{
+  "name": "edge-json-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp build --gulpfile gulpfile.mjs",
+    "dev": "gulp --gulpfile gulpfile.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.258",
+    "@types/node": "^20.11.0",
+    "del": "^8.0.1",
+    "gulp": "^5.0.0",
+    "gulp-typescript": "^6.0.0",
+    "typescript": "^5.3.3"
+  }
+}

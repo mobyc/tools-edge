@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          /* 适配 Edge 环境 */
+    "module": "ESNext",                       /* 适配 Service Worker */
+    "moduleResolution": "Node",               /* 解析 npm 依赖 */
+    "outDir": "./dist",                       /* 输出目录 */
+    "strict": true,                           /* 严格类型检查 */
+    "esModuleInterop": true,                  /* 兼容 CommonJS */
+    "skipLibCheck": true,                     /* 跳过第三方库类型检查 */
+    "resolveJsonModule": true,                /* 允许导入 JSON */
+    "lib": ["ES6", "DOM"],                    /* 引入 DOM 库（适配浏览器） */
+    "types": ["node", "chrome"],              /* 引入 Node/Chrome 类型声明 */
+    "sourceMap": true                         /* 生成 sourceMap 方便调试 */
+  },
+  "include": ["src/**/*"],                    /* 仅匹配 src 下所有 TS 文件 */
+  "exclude": ["node_modules", "dist"]         /* 排除无需编译的目录 */
+}
